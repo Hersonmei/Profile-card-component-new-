@@ -1,0 +1,97 @@
+body {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: hsl(185, 75%, 39%);
+  background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 40vh right 50vw, top 50vh left 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+section {
+  position: relative;
+}
+
+.card-content {
+  height: 140px;
+}
+
+.card {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.card-white {
+  width: 100%;
+  height: 280px;
+  background-color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.photo-victor {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 90px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 50%;
+}
+
+.data {
+  text-align: center;
+  border-bottom: hsl(0, 32%, 90%) 0.5px solid;
+  padding: 50px 0 20px 0;
+}
+
+.data .name,
+.number {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+span,
+.data .city,
+.details {
+  font-weight: 500;
+  color: hsl(0, 0%, 59%);
+}
+
+.data p,
+.infos p {
+  margin: 10px;
+}
+
+.infos {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
