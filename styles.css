@@ -7,7 +7,7 @@ body {
   background-image: url("./images/bg-pattern-top.svg"),
     url("./images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom 40vh right 50vw, top 50vh left 50vw;
+  background-position: bottom 55vh right 50vw, top 55vh left 50vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,3 +95,5 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* @media */
