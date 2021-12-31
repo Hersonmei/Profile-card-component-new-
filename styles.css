@@ -98,21 +98,13 @@ footer {
 
 @media (max-width: 375px) {
   .card {
-    width: 80%;
+    width: 95%;
   }
 
   .card-white {
-    width: 80%;
+    width: 95%;
     height: 17,5rem;
-    background-color: white;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
   }
 
-  /* footer {
-    position: absolute;
-    bottom: 20px;
-    text-align: center;
-    color: white;
-  } */
+ 
 }
